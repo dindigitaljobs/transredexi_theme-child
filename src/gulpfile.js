@@ -96,6 +96,7 @@ gulp.task('dev-css-vendor', (cb) => {
       gulp.dest(dist + '/css')
     ], cb);
   }
+  cb();
   console.log('Não há vendors.css para compilar! Próxima task...');
 });
 
@@ -111,6 +112,7 @@ gulp.task('dev-js-vendor', (cb) => {
       gulp.dest(dist + '/js')
     ], cb);
   }
+  cb();
   console.log('Não há vendors.js para compilar! Próxima task...');
 });
 
