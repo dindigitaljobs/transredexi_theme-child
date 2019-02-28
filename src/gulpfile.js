@@ -27,8 +27,7 @@ const vendors = {
   css: [
     npm + '/normalize.css/normalize.css',
   ],
-  js: [
-  ]
+  js: ''
 };
 
 // Version
@@ -84,28 +83,35 @@ gulp.task('dev-js', (cb) => {
   ], cb);
 });
 
+
 gulp.task('dev-css-vendor', (cb) => {
-  pump([
-    gulp.src(vendors.css),
-    concat('vendor.css'),
-    cleanCSS({
-      compatibility: 'ie8',
-      minify: false
-    }),
-    gulp.dest(dist + '/css')
-  ], cb);
+  if (vendors.css || vendors.css !== '') {
+    return pump([
+      gulp.src(vendors.css),
+      concat('vendor.css'),
+      cleanCSS({
+        compatibility: 'ie8',
+        minify: false
+      }),
+      gulp.dest(dist + '/css')
+    ], cb);
+  }
+  console.log('Não há vendors.css para compilar! Próxima task...');
 });
 
 gulp.task('dev-js-vendor', (cb) => {
-  pump([
-    gulp.src(vendors.js),
-    concat('vendor.js'),
-    uglify({
-      mangle: false,
-      compress: false
-    }),
-    gulp.dest(dist + '/js')
-  ], cb);
+  if ( vendors.js || vendors.js !== '' ) {
+    return pump([
+      gulp.src(vendors.js),
+      concat('vendor.js'),
+      uglify({
+        mangle: false,
+        compress: false
+      }),
+      gulp.dest(dist + '/js')
+    ], cb);
+  }
+  console.log('Não há vendors.js para compilar! Próxima task...');
 });
 
 // Production Tasks
