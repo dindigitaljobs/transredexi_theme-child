@@ -1,0 +1,1 @@
+{"version":3,"sources":["init.js"],"names":["console","log"],"mappings":"aAAAA,QAAAC,IAAA","file":"main.js","sourcesContent":["console.log( 'teste' );"]}
