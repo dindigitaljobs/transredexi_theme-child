@@ -1,0 +1,22 @@
+{
+  "name": "transredexi_theme-child",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dindigitaljobs/transredexi_theme-child.git"
+  },
+  "keywords": [
+    "wordpress",
+    "theme-child"
+  ],
+  "author": "@dindigital",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dindigitaljobs/transredexi_theme-child/issues"
+  },
+  "homepage": "https://github.com/dindigitaljobs/transredexi_theme-child#readme"
+}
