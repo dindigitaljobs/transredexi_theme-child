@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Logistic Company\n"
 "POT-Creation-Date: 2018-10-04 14:08+0300\n"
-"PO-Revision-Date: 2019-03-08 18:52-0300\n"
+"PO-Revision-Date: 2019-03-08 19:04-0300\n"
 "Language-Team: ThemeREX\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1107,95 +1107,95 @@ msgstr ""
 
 #: fw/core/core.date.php:99
 msgid "January"
-msgstr ""
+msgstr "Janeiro"
 
 #: fw/core/core.date.php:100
 msgid "February"
-msgstr ""
+msgstr "Fevereiro"
 
 #: fw/core/core.date.php:101
 msgid "March"
-msgstr ""
+msgstr "Março"
 
 #: fw/core/core.date.php:102
 msgid "April"
-msgstr ""
+msgstr "Abril"
 
 #: fw/core/core.date.php:103 fw/core/core.date.php:115
 msgid "May"
-msgstr ""
+msgstr "Maio"
 
 #: fw/core/core.date.php:104
 msgid "June"
-msgstr ""
+msgstr "Junho"
 
 #: fw/core/core.date.php:105
 msgid "July"
-msgstr ""
+msgstr "Julho"
 
 #: fw/core/core.date.php:106
 msgid "August"
-msgstr ""
+msgstr "Agosto"
 
 #: fw/core/core.date.php:107
 msgid "September"
-msgstr ""
+msgstr "Setembro"
 
 #: fw/core/core.date.php:108
 msgid "October"
-msgstr ""
+msgstr "Outubro"
 
 #: fw/core/core.date.php:109
 msgid "November"
-msgstr ""
+msgstr "Novembro"
 
 #: fw/core/core.date.php:110
 msgid "December"
-msgstr ""
+msgstr "Dezembro"
 
 #: fw/core/core.date.php:111
 msgid "Jan"
-msgstr ""
+msgstr "Jan"
 
 #: fw/core/core.date.php:112
 msgid "Feb"
-msgstr ""
+msgstr "Fev"
 
 #: fw/core/core.date.php:113
 msgid "Mar"
-msgstr ""
+msgstr "Marc"
 
 #: fw/core/core.date.php:114
 msgid "Apr"
-msgstr ""
+msgstr "Abr"
 
 #: fw/core/core.date.php:116
 msgid "Jun"
-msgstr ""
+msgstr "Jun"
 
 #: fw/core/core.date.php:117
 msgid "Jul"
-msgstr ""
+msgstr "Jul"
 
 #: fw/core/core.date.php:118
 msgid "Aug"
-msgstr ""
+msgstr "Ago"
 
 #: fw/core/core.date.php:119
 msgid "Sep"
-msgstr ""
+msgstr "Set"
 
 #: fw/core/core.date.php:120
 msgid "Oct"
-msgstr ""
+msgstr "Out"
 
 #: fw/core/core.date.php:121
 msgid "Nov"
-msgstr ""
+msgstr "Nov"
 
 #: fw/core/core.date.php:122
 msgid "Dec"
-msgstr ""
+msgstr "Dez"
 
 #: fw/core/core.files.php:61
 #, php-format
@@ -1229,15 +1229,15 @@ msgstr ""
 
 #: fw/core/core.lists.php:32 fw/core/core.lists.php:1048
 msgid "Small"
-msgstr ""
+msgstr "Pequeno"
 
 #: fw/core/core.lists.php:33 fw/core/core.lists.php:1049
 msgid "Medium"
-msgstr ""
+msgstr "Médio"
 
 #: fw/core/core.lists.php:34 fw/core/core.lists.php:1050
 msgid "Large"
-msgstr ""
+msgstr "Grande"
 
 #: fw/core/core.lists.php:35
 msgid "Huge"
@@ -7091,7 +7091,7 @@ msgstr ""
 #: plugins/support.services.php:1102 plugins/support.services.php:1198
 #: templates/excerpt.php:78 templates/masonry.php:164
 msgid "Read more"
-msgstr ""
+msgstr "Leia mais"
 
 #: plugins/support.services.php:712 plugins/support.services.php:778
 #: plugins/support.services.php:1103 plugins/support.services.php:1199
@@ -7497,7 +7497,7 @@ msgstr ""
 #: plugins/support.testimonials.php:691 plugins/support.testimonials.php:1040
 #: templates/_parts/reviews-block.php:16
 msgid "Author"
-msgstr ""
+msgstr "Autor"
 
 #: plugins/support.testimonials.php:692 plugins/support.testimonials.php:1041
 msgid "Name of the testimonmials author"
@@ -7557,11 +7557,11 @@ msgstr ""
 
 #: searchform.php:1
 msgid "Keyword"
-msgstr ""
+msgstr "Palavra-chave"
 
 #: searchform.php:1
 msgid "Search for:"
-msgstr ""
+msgstr "Buscando por:"
 
 #: templates/404.php:33
 msgid "404"
@@ -7584,21 +7584,21 @@ msgstr ""
 
 #: templates/_parts/author-info.php:11
 msgid "About"
-msgstr ""
+msgstr "Sobre"
 
 #: templates/_parts/counters.php:11
 #, php-format
 msgid "Views - %s"
-msgstr ""
+msgstr "Visualizações - %s"
 
 #: templates/_parts/counters.php:18
 #, php-format
 msgid "Comments - %s"
-msgstr ""
+msgstr "Comentários - %s"
 
 #: templates/_parts/counters.php:18
 msgid "Comment(s)"
-msgstr ""
+msgstr "Comentários"
 
 #: templates/_parts/counters.php:26
 #, php-format
@@ -7760,7 +7760,7 @@ msgstr ""
 
 #: templates/headers/_parts/top-panel-top.php:143
 msgid "Settings"
-msgstr ""
+msgstr "Configurações"
 
 #: templates/headers/header_7.php:16
 msgid "Header 7"
@@ -7809,11 +7809,11 @@ msgstr ""
 
 #: templates/no-articles.php:16
 msgid "No articles found"
-msgstr ""
+msgstr "Nenhum artigo encontrado"
 
 #: templates/no-articles.php:27
 msgid "No posts found"
-msgstr ""
+msgstr "Nenhum post encontrado"
 
 #: templates/no-articles.php:28
 msgid "Sorry, but nothing matched your search criteria."
@@ -7924,7 +7924,7 @@ msgstr ""
 
 #: templates/portfolio.php:328 templates/portfolio.php:451
 msgid "Country: "
-msgstr ""
+msgstr "País:"
 
 #: templates/portfolio.php:329 templates/portfolio.php:452
 msgid "Club: "
@@ -7932,7 +7932,7 @@ msgstr ""
 
 #: templates/portfolio.php:330 templates/portfolio.php:453
 msgid "Age: "
-msgstr ""
+msgstr "Idade:"
 
 #: templates/portfolio.php:350
 msgid "LEARN MORE"
@@ -7968,7 +7968,7 @@ msgstr ""
 
 #: templates/single-standard.php:124
 msgid "Categories:"
-msgstr ""
+msgstr "Categorias:"
 
 #: templates/single-team.php:18
 msgid "Single Team member"
@@ -7980,7 +7980,7 @@ msgstr ""
 
 #: templates/single-team.php:89
 msgid "Date Of Birth: "
-msgstr ""
+msgstr "Data de nascimento:"
 
 #: templates/trx_blogger/accordion.php:18
 msgid "Blogger layout: Accordion"
@@ -7988,7 +7988,7 @@ msgstr ""
 
 #: templates/trx_blogger/accordion.php:48
 msgid "Posted by"
-msgstr ""
+msgstr "Postador por"
 
 #: templates/trx_blogger/accordion.php:68
 msgid "READ MORE"
@@ -8024,27 +8024,27 @@ msgstr ""
 
 #: templates/trx_form/form_1.php:33
 msgid "Name *"
-msgstr ""
+msgstr "Nome *"
 
 #: templates/trx_form/form_1.php:45
 msgid "E-mail *"
-msgstr ""
+msgstr "E-mail *"
 
 #: templates/trx_form/form_1.php:60 templates/trx_form/form_1.php:68
 msgid "Subject"
-msgstr ""
+msgstr "Assunto"
 
 #: templates/trx_form/form_1.php:74 templates/trx_form/form_1.php:82
 msgid "Message"
-msgstr ""
+msgstr "Mensagem"
 
 #: templates/trx_form/form_1.php:86
 msgid "Send Message"
-msgstr ""
+msgstr "Enviar mensagem"
 
 #: templates/trx_form/form_custom.php:16
 msgid "Custom Form"
-msgstr ""
+msgstr "Formulário personalizado"
 
 #: templates/trx_recent_news/news-announce.php:17
 msgid "Recent News /Style Announce/"
