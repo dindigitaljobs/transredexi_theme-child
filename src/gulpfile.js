@@ -27,7 +27,9 @@ const vendors = {
   css: [
     npm + '/normalize.css/normalize.css',
   ],
-  js: ''
+  js: [
+    npm + '/jquery-mask-plugin/dist/jquery.mask.min.js'
+  ]
 };
 
 // Version
