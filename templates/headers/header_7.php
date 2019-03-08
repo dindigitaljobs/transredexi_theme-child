@@ -59,11 +59,14 @@ if ( !function_exists( 'logistic_company_template_header_7_output' ) ) {
 						<?php
 
                         // Phone
-                        $contact_phone=trim(logistic_company_get_custom_option('contact_phone'));
+						$contact_phone=trim(logistic_company_get_custom_option('contact_phone'));
+                        $contact_fax=trim(logistic_company_get_custom_option('contact_fax'));
                         if (!empty($contact_phone) || !empty($contact_email)) {
                             ?><div class="contact_field contact_phone">
-                            <span class="contact_label contact_phone icon-icon_1"><?php echo '<a href="tel:'.wp_kses_data($contact_phone).'">'.wp_kses_data($contact_phone).'</a>'; ?></span>
-                            </div><?php
+                            <span class="contact_label contact_phone icon-icon_1"><?php echo '<a href="tel:'.wp_kses_data($contact_phone).'">'.wp_kses_data($contact_phone).'</a>'; ?></span><br>
+                            <span class="contact_label contact_phone icon-icon_1">WhatsApp: <?php echo '<a href="https://api.whatsapp.com/send?phone='.wp_kses_data($contact_fax).'">'.wp_kses_data($contact_fax).'</a>'; ?></span>
+                            </div>
+							<?php
                         }
 
                         if (logistic_company_get_custom_option('show_login')=='yes') {
