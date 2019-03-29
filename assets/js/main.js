@@ -1,1 +1,2 @@
-"use strict";!function(e){var s=function(e){return 11===e.replace(/\D/g,"").length?"(00) 00000-0000":"(00) 0000-00009"},n={onKeyPress:function(e,n,t,r){t.mask(s.apply({},arguments),r)}};e('[type="tel"]').mask(s,n)}(jQuery);
+"use strict";(function($){"use strict";var SPMaskBehavior=function SPMaskBehavior(val){return val.replace(/\D/g,"").length===11?"(00) 00000-0000":"(00) 0000-00009"},spOptions={onKeyPress:function onKeyPress(val,e,field,options){field.mask(SPMaskBehavior.apply({},arguments),options)}};$('[type="tel"]').mask(SPMaskBehavior,spOptions)})(jQuery);
+//# sourceMappingURL=main.js.map
