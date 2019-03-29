@@ -34,69 +34,61 @@ const vendors = {
 
 // Version
 gulp.task('version', (cb) => {
-  pump([
-    gulp.src([
-      src + '/sass/*.sass',
-      src + '/js/*.js'
-    ]),
-    bust(),
-    gulp.dest(dist)
-  ], cb);
+  return gulp.src([
+    src + '/sass/*.sass',
+    src + '/js/*.js'
+  ])
+    .pipe(bust())
+    .pipe(gulp.dest(dist))
 });
 
 // Development Tasks
 gulp.task('dev-css', (cb) => {
-  pump([
-    gulp.src([
+  return gulp.src([
       src + '/sass/*.sass'
-    ]),
-    sourcemaps.init(),
-    sass().on('error', sass.logError),
-    concat('main.css'),
-    cleanCSS({
+    ])
+    .pipe(sourcemaps.init())
+    .pipe(sass().on('error', sass.logError))
+    .pipe(concat('main.css'))
+    .pipe(cleanCSS({
       minify: false
-    }),
-    postcss([
+    }))
+    .pipe(postcss([
       precss,
       autoprefixer({browsers: 'last 2 version', cascade: false}),
       shortColor
-    ]),
-    sourcemaps.write('.'),
-    gulp.dest(dist + '/css')
-  ], cb);
+    ]))
+    .pipe(sourcemaps.write('.'))
+    .pipe(gulp.dest(dist + '/css'))
 });
 
 gulp.task('dev-js', (cb) => {
-  pump([
-    gulp.src([
+  return gulp.src([
       src + '/js/*.js'
-    ]),
-    sourcemaps.init(),
-    concat('main.js'),
-    babel({
+    ])
+    .pipe(sourcemaps.init())
+    .pipe(concat('main.js'))
+    .pipe(babel({
       presets: ['@babel/preset-env']
-    }),
-    uglify({
+    }))
+    .pipe(uglify({
       mangle: false,
       compress: false
-    }),
-    sourcemaps.write("."),
-    gulp.dest(dist + '/js')
-  ], cb);
+    }))
+    .pipe(sourcemaps.write("."))
+    .pipe(gulp.dest(dist + '/js'))
 });
 
 
 gulp.task('dev-css-vendor', (cb) => {
   if (vendors.css || vendors.css !== '') {
-    return pump([
-      gulp.src(vendors.css),
-      concat('vendor.css'),
-      cleanCSS({
+    return gulp.src(vendors.css)
+      .pipe(concat('vendor.css'))
+      .pipe(cleanCSS({
         compatibility: 'ie8',
         minify: false
-      }),
-      gulp.dest(dist + '/css')
-    ], cb);
+      }))
+      .pipe(gulp.dest(dist + '/css'))
   }
   cb();
   console.log('Não há vendors.css para compilar! Próxima task...');
@@ -104,15 +96,13 @@ gulp.task('dev-css-vendor', (cb) => {
 
 gulp.task('dev-js-vendor', (cb) => {
   if ( vendors.js || vendors.js !== '' ) {
-    return pump([
-      gulp.src(vendors.js),
-      concat('vendor.js'),
-      uglify({
+    return gulp.src(vendors.js)
+      .pipe(concat('vendor.js'))
+      .pipe(uglify({
         mangle: false,
         compress: false
-      }),
-      gulp.dest(dist + '/js')
-    ], cb);
+      }))
+      .pipe(gulp.dest(dist + '/js'))
   }
   cb();
   console.log('Não há vendors.js para compilar! Próxima task...');
@@ -120,65 +110,55 @@ gulp.task('dev-js-vendor', (cb) => {
 
 // Production Tasks
 gulp.task('css', (cb) => {
-  pump([
-    del(dist + '/css/main.css.map', { force: true }),
-    gulp.src([
+    return gulp.src([
       src + '/sass/*.sass'
-    ]),
-    sass().on('error', sass.logError),
-    concat('main.css'),
-    cleanCSS({
+    ])
+    .pipe(sass().on('error', sass.logError))
+    .pipe(concat('main.css'))
+    .pipe(cleanCSS({
       minify: true
-    }),
-    postcss([
+    }))
+    .pipe(postcss([
       precss,
       autoprefixer({browsers: 'last 2 version', cascade: false}),
       shortColor
-    ]),
-    gulp.dest(dist + '/css')
-  ], cb);
+    ]))
+    .pipe(gulp.dest(dist + '/css'))
 });
 
 gulp.task('js', (cb) => {
-  pump([
-    del(dist + '/js/main.js.map', { force: true }),
-    gulp.src([
-      src + '/js/*.js'
-    ]),
-    concat('main.js'),
-    babel({
+  return gulp.src([
+    src + '/js/*.js'
+  ])
+    .pipe(concat('main.js'))
+    .pipe(babel({
       presets: ['@babel/preset-env']
-    }),
-    uglify({
+    }))
+    .pipe(uglify({
       mangle: true,
       compress: true
-    }),
-    gulp.dest(dist + '/js')
-  ], cb);
+    }))
+    .pipe(gulp.dest(dist + '/js'))
 });
 
 gulp.task('css-vendor', (cb) => {
-  pump([
-    gulp.src(vendors.css),
-    concat('vendor.css'),
-    cleanCSS({
+  return gulp.src(vendors.css)
+    .pipe(concat('vendor.css'))
+    .pipe(cleanCSS({
       compatibility: 'ie8',
       minify: true
-    }),
-    gulp.dest(dist + '/css')
-  ], cb);
+    }))
+    .pipe(gulp.dest(dist + '/css'))
 });
 
 gulp.task('js-vendor', (cb) => {
-  pump([
-    gulp.src(vendors.js),
-    concat('vendor.js'),
-    uglify({
+  return gulp.src(vendors.js)
+    .pipe(concat('vendor.js'))
+    .pipe(uglify({
       mangle: true,
       compress: true
-    }),
-    gulp.dest(dist + '/js')
-  ], cb);
+    }))
+    .pipe(gulp.dest(dist + '/js'))
 });
 
 // Tasks
