@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Logistic Company\n"
 "POT-Creation-Date: 2018-10-04 14:08+0300\n"
-"PO-Revision-Date: 2019-04-01 11:59-0300\n"
+"PO-Revision-Date: 2019-04-01 18:02-0300\n"
 "Language-Team: ThemeREX\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -6630,11 +6630,11 @@ msgstr ""
 #: plugins/support.clients.php:68 plugins/support.clients.php:527
 #: plugins/support.clients.php:787
 msgid "Clients"
-msgstr ""
+msgstr "Clientes"
 
 #: plugins/support.clients.php:74
 msgid "Client details"
-msgstr ""
+msgstr "Detalhe dos clientes"
 
 #: plugins/support.clients.php:77
 msgid "In this section you can put details for this client"
@@ -6666,7 +6666,7 @@ msgstr ""
 
 #: plugins/support.clients.php:171 plugins/support.clients.php:187
 msgid "All clients"
-msgstr ""
+msgstr "Todos os clientes"
 
 #: plugins/support.clients.php:284 plugins/support.services.php:229
 #: plugins/support.services.php:233 plugins/support.team.php:400
@@ -6690,14 +6690,14 @@ msgstr ""
 #: plugins/support.team.php:711 plugins/support.team.php:1143
 #: plugins/support.testimonials.php:475 plugins/support.testimonials.php:860
 msgid "Subtitle"
-msgstr ""
+msgstr "Subtítulo"
 
 #: plugins/support.clients.php:540 plugins/support.clients.php:901
 #: plugins/support.services.php:514 plugins/support.services.php:994
 #: plugins/support.team.php:712 plugins/support.team.php:1144
 #: plugins/support.testimonials.php:476 plugins/support.testimonials.php:861
 msgid "Subtitle for the block"
-msgstr ""
+msgstr "Subtítulo do bloco"
 
 #: plugins/support.clients.php:545 plugins/support.clients.php:754
 #: plugins/support.clients.php:909 plugins/support.services.php:519
@@ -6706,7 +6706,7 @@ msgstr ""
 #: plugins/support.team.php:1152 plugins/support.testimonials.php:481
 #: plugins/support.testimonials.php:869
 msgid "Description"
-msgstr ""
+msgstr "Descrição"
 
 #: plugins/support.clients.php:546 plugins/support.services.php:520
 #: plugins/support.team.php:718 plugins/support.testimonials.php:482
@@ -6715,7 +6715,7 @@ msgstr ""
 
 #: plugins/support.clients.php:551 plugins/support.clients.php:799
 msgid "Clients style"
-msgstr ""
+msgstr "Estilo dos clientes"
 
 #: plugins/support.clients.php:552 plugins/support.clients.php:800
 msgid "Select style to display clients list"
@@ -6741,7 +6741,7 @@ msgstr ""
 #: plugins/support.team.php:753 plugins/support.team.php:1062
 #: plugins/support.testimonials.php:510 plugins/support.testimonials.php:779
 msgid "Controls"
-msgstr ""
+msgstr "Controles"
 
 #: plugins/support.clients.php:582 plugins/support.clients.php:828
 #: plugins/support.services.php:586 plugins/support.services.php:913
@@ -6810,7 +6810,7 @@ msgstr ""
 #: plugins/support.team.php:828 plugins/support.team.php:1184
 #: plugins/support.testimonials.php:585 plugins/support.testimonials.php:901
 msgid "Number of posts"
-msgstr ""
+msgstr "Número de posts"
 
 #: plugins/support.clients.php:648 plugins/support.clients.php:942
 #: plugins/support.services.php:661 plugins/support.services.php:1035
@@ -6836,7 +6836,7 @@ msgstr ""
 #: plugins/support.clients.php:668 plugins/support.services.php:681
 #: plugins/support.team.php:849 plugins/support.testimonials.php:606
 msgid "Post order by"
-msgstr ""
+msgstr "Ordenar posts por"
 
 #: plugins/support.clients.php:669 plugins/support.clients.php:968
 #: plugins/support.services.php:682 plugins/support.services.php:1062
@@ -6850,7 +6850,7 @@ msgstr ""
 #: plugins/support.team.php:859 plugins/support.team.php:1224
 #: plugins/support.testimonials.php:616 plugins/support.testimonials.php:941
 msgid "Post order"
-msgstr ""
+msgstr "Ordem dos posts"
 
 #: plugins/support.clients.php:679 plugins/support.clients.php:982
 #: plugins/support.services.php:692 plugins/support.services.php:1076
@@ -6898,7 +6898,7 @@ msgstr ""
 
 #: plugins/support.clients.php:722 plugins/support.clients.php:1041
 msgid "Client"
-msgstr ""
+msgstr "Cliente"
 
 #: plugins/support.clients.php:723
 msgid "Single client (custom parameters)"
@@ -7603,17 +7603,17 @@ msgstr "Comentários"
 #: templates/_parts/counters.php:26
 #, php-format
 msgid "Rating - %s"
-msgstr ""
+msgstr "Nota - %s"
 
 #: templates/_parts/counters.php:37 templates/_parts/counters.php:40
 #: templates/_parts/widgets-posts.php:95 templates/_parts/widgets-posts.php:98
 msgid "Like"
-msgstr ""
+msgstr "Curtir"
 
 #: templates/_parts/counters.php:37 templates/_parts/counters.php:41
 #: templates/_parts/widgets-posts.php:95 templates/_parts/widgets-posts.php:99
 msgid "Dislike"
-msgstr ""
+msgstr "Curtir (desfazer)"
 
 #: templates/_parts/editor-area.php:27 templates/excerpt.php:16
 msgid "Excerpt"
@@ -7634,19 +7634,19 @@ msgstr ""
 
 #: templates/_parts/post-info.php:57
 msgid "Edit post"
-msgstr ""
+msgstr "Editar post"
 
 #: templates/_parts/prev-next-block.php:53 templates/attachment.php:53
 msgid "Previous item"
-msgstr ""
+msgstr "Anterior"
 
 #: templates/_parts/prev-next-block.php:65 templates/attachment.php:65
 msgid "Next item"
-msgstr ""
+msgstr "Próximo"
 
 #: templates/_parts/related-posts.php:63
 msgid "Related Posts"
-msgstr ""
+msgstr "Posts relacionados"
 
 #: templates/_parts/reviews-block.php:17
 msgid "Users"
@@ -7682,7 +7682,7 @@ msgstr ""
 #: templates/attachment.php:93 templates/single-portfolio.php:87
 #: templates/single-standard.php:105 templates/single-team.php:122
 msgid "Pages:"
-msgstr ""
+msgstr "Páginas:"
 
 #: templates/attachment.php:102 templates/single-standard.php:123
 #: templates/single-team.php:131
@@ -7723,7 +7723,7 @@ msgstr ""
 
 #: templates/headers/_parts/contact-info-cart.php:10
 msgid "Items"
-msgstr ""
+msgstr "Itens"
 
 #: templates/headers/_parts/header-mobile.php:42
 #: templates/headers/_parts/top-panel-top.php:146
@@ -7756,7 +7756,7 @@ msgstr ""
 
 #: templates/headers/_parts/top-panel-top.php:141
 msgid "New post"
-msgstr ""
+msgstr "Novo post"
 
 #: templates/headers/_parts/top-panel-top.php:143
 msgid "Settings"
