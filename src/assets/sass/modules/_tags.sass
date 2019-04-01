@@ -1,0 +1,19 @@
+.tag-cloud-link
+  font-size: ((14/16) + rem) !important
+  padding: 0
+  background: none
+  border: none
+  margin: 0
+
+  &:not(:last-child)
+    margin-bottom: ((15/16) + rem)
+
+  &:hover
+    color: #1aa03c
+
+  &:before
+    content: "\2022"
+    font-size: ((24/16) + rem)
+    vertical-align: middle
+    display: inline-block
+    text-indent: -((16/16) + rem)
