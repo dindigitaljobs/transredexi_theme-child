@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Logistic Company\n"
 "POT-Creation-Date: 2018-10-04 14:08+0300\n"
-"PO-Revision-Date: 2019-03-08 19:04-0300\n"
+"PO-Revision-Date: 2019-04-01 11:59-0300\n"
 "Language-Team: ThemeREX\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -120,7 +120,7 @@ msgstr "Voltar para o topo"
 
 #: functions.php:353
 msgid "Scroll to top"
-msgstr ""
+msgstr "Rolar para o topo"
 
 #: fw/core/core.admin.php:61 fw/core/core.messages.php:98
 msgid "Invalid server answer"
@@ -1742,7 +1742,7 @@ msgstr ""
 
 #: fw/core/core.lists.php:685 fw/core/support.post.php:420
 msgid "All posts"
-msgstr ""
+msgstr "Todos os posts"
 
 #: fw/core/core.lists.php:686
 msgid "With thumbs"
@@ -3014,7 +3014,7 @@ msgstr ""
 #: fw/core/core.wp.php:663 fw/core/core.wp.php:691 fw/core/core.wp.php:706
 #, php-format
 msgid "View posts for %1$s %2$s"
-msgstr ""
+msgstr "Ver posts para %1$s %2$s"
 
 #: fw/core/core.wp.php:747
 msgid "items"
@@ -3098,7 +3098,7 @@ msgstr ""
 
 #: fw/core/support.post.php:380
 msgid "All Posts"
-msgstr ""
+msgstr "Todos os posts"
 
 #: fw/core/support.post.php:383
 #, php-format
@@ -4898,7 +4898,7 @@ msgstr ""
 
 #: includes/theme.options.php:1756
 msgid "Blog posts sorted by"
-msgstr ""
+msgstr "Posts do blog ordenados por"
 
 #: includes/theme.options.php:1757
 msgid "Select the desired sorting method for posts"
@@ -4906,11 +4906,11 @@ msgstr ""
 
 #: includes/theme.options.php:1765
 msgid "Blog posts order"
-msgstr ""
+msgstr "Ordenação dos posts do blog"
 
 #: includes/theme.options.php:1774
 msgid "Blog posts per page"
-msgstr ""
+msgstr "Posts por página"
 
 #: includes/theme.options.php:1775
 msgid ""
@@ -5038,7 +5038,7 @@ msgstr ""
 
 #: includes/theme.options.php:1907
 msgid "Show related posts"
-msgstr ""
+msgstr "Mostrar posts relacionados"
 
 #: includes/theme.options.php:1908
 msgid "Show related posts block on single post page"
@@ -5046,7 +5046,7 @@ msgstr ""
 
 #: includes/theme.options.php:1915
 msgid "Related posts number"
-msgstr ""
+msgstr "Número de posts relacionados"
 
 #: includes/theme.options.php:1916
 msgid "How many related posts showed on single post page"
@@ -5054,7 +5054,7 @@ msgstr ""
 
 #: includes/theme.options.php:1928
 msgid "Related posts columns"
-msgstr ""
+msgstr "Coluna de posts relacionados"
 
 #: includes/theme.options.php:1929
 msgid ""
@@ -5064,7 +5064,7 @@ msgstr ""
 
 #: includes/theme.options.php:1941
 msgid "Related posts sorted by"
-msgstr ""
+msgstr "Posts relacionados ordenados por"
 
 #: includes/theme.options.php:1942
 msgid "Select the desired sorting method for related posts"
@@ -5072,7 +5072,7 @@ msgstr ""
 
 #: includes/theme.options.php:1952
 msgid "Related posts order"
-msgstr ""
+msgstr "Ordenação dos posts relacionados"
 
 #: includes/theme.options.php:1953
 msgid "Select the desired ordering method for related posts"
@@ -6585,7 +6585,7 @@ msgstr ""
 
 #: plugins/plugin.woocommerce.php:1703
 msgid "Recent Products"
-msgstr ""
+msgstr "Produtos recentes"
 
 #: plugins/plugin.woocommerce.php:1764
 msgid "Related Products"
@@ -7423,7 +7423,7 @@ msgstr ""
 
 #: plugins/support.testimonials.php:463 plugins/support.testimonials.php:747
 msgid "Testimonials"
-msgstr ""
+msgstr "Depoimentos"
 
 #: plugins/support.testimonials.php:464
 msgid "Insert testimonials into post (page)"
@@ -7431,11 +7431,11 @@ msgstr ""
 
 #: plugins/support.testimonials.php:487 plugins/support.testimonials.php:759
 msgid "Testimonials style"
-msgstr ""
+msgstr "Estilo dos depoimentos"
 
 #: plugins/support.testimonials.php:488 plugins/support.testimonials.php:760
 msgid "Select style to display testimonials"
-msgstr ""
+msgstr "Selecione o estilo para mostrar os depoimentos"
 
 #: plugins/support.testimonials.php:495 plugins/support.testimonials.php:892
 msgid "How many columns use to show testimonials"
@@ -7443,7 +7443,7 @@ msgstr ""
 
 #: plugins/support.testimonials.php:556 plugins/support.testimonials.php:835
 msgid "Alignment of the testimonials block"
-msgstr ""
+msgstr "Alinhamento do bloco de depoimentos"
 
 #: plugins/support.testimonials.php:565 plugins/support.testimonials.php:843
 msgid ""
