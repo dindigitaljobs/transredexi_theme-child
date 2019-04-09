@@ -120,7 +120,7 @@ gulp.task('css', (cb) => {
     }))
     .pipe(postcss([
       precss,
-      autoprefixer({browsers: 'last 2 version', cascade: false}),
+      autoprefixer({browsers: 'last 40 version', cascade: false}),
       shortColor
     ]))
     .pipe(gulp.dest(dist + '/css'))
