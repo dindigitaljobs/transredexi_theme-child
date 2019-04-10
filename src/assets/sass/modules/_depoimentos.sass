@@ -1,8 +1,13 @@
 .sc_testimonial_item
   display: flex !important
   align-items: center !important
+  flex-direction: column !important
   justify-content: center !important
-  height: ((300/16) + rem) !important
+  min-height: ((300/16) + rem) !important
+
+  @media (min-width: ((920/16) + rem))
+    flex-direction: row !important
+    height: ((300/16) + rem) !important
 
   &:after
     content: none !important
